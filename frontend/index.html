@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能对话助手</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>智能对话助手</h1>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <div class="message system">
+                <div class="message-content">
+                    你好！我是你的AI助手。今天有什么可以帮助你的吗？
+                </div>
+            </div>
+        </div>
+        <div class="chat-input-container">
+            <textarea id="user-input" placeholder="在这里输入你的消息..." rows="3"></textarea>
+            <button id="send-button">发送</button>
+        </div>
+    </div>
+    
+    <script src="/static/js/chat.js"></script>
+    <script src="/static/js/stream.js"></script>
+</body>
+</html>
